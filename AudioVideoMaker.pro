@@ -40,5 +40,5 @@ LIBS += -L $${FFMPEG_HOME}/lib \
             -lswresample \
             -lavresample
 
-DISTFILES += \
-    Info.plist
+QMAKE_INFO_PLIST += \
+            Info.plist
